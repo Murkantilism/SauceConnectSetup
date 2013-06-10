@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Sauceconnectsetup : A little Python script that automatically installs and sets up the Sauce Connect Java Utility tunnel." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Sauceconnectsetup</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/Murkantilism/SauceConnectSetup">View on GitHub</a>
+
+          <h1 id="project_title">Sauceconnectsetup</h1>
+          <h2 id="project_tagline">A little Python script that automatically installs and sets up the Sauce Connect Java Utility tunnel.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/Murkantilism/SauceConnectSetup/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/Murkantilism/SauceConnectSetup/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="sauceconnectsetuppy" class="anchor" href="#sauceconnectsetuppy"><span class="octicon octicon-link"></span></a>SauceConnectSetup.py</h1>
+
+<p>A little Python script that automatically installs and sets up the Sauce Connect Java Utility tunnel.</p>
+
+<h2>
+<a name="how-it-works" class="anchor" href="#how-it-works"><span class="octicon octicon-link"></span></a>How it works:</h2>
+
+<p>This little Python script simply:</p>
+
+<ul>
+<li>Download the Sauce Connect Java Utility from: <a href="http://saucelabs.com/downloads/Sauce-Connect-latest.zip">http://saucelabs.com/downloads/Sauce-Connect-latest.zip</a>
+</li>
+<li>Unzips the download</li>
+<li>Sets up the Sauce Connect Java Utility automatically. During setup the script:
+
+<ul>
+<li>Checks for the required open ports 80 &amp; 443</li>
+<li>Asks for the Sauce username &amp; API Key</li>
+<li>Kicks off the Java utility with the authentication information as a daemon</li>
+</ul>
+</li>
+<li>The script kills the daemon nightly at 12am and redeploys the tunnel, to ensure Sauce is kept fresh.</li>
+</ul><h2>
+<a name="how-to-run" class="anchor" href="#how-to-run"><span class="octicon octicon-link"></span></a>How to run:</h2>
+
+<p>Prerequisite: Python 2.7.4+ installed</p>
+
+<p>To run this script, open a command prompt as Administrator, cd to the folder you downloaded the script, and execute the script:</p>
+
+<blockquote>
+<p>SauceConnectSetup.py</p>
+</blockquote>
+
+<p>or depending on your PATH variable and how your system handles .py file extensions:</p>
+
+<blockquote>
+<p>python SauceConnectSetup.py</p>
+</blockquote>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Sauceconnectsetup maintained by <a href="https://github.com/Murkantilism">Murkantilism</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
