@@ -29,3 +29,23 @@ or depending on your PATH variable and how your system handles .py file extensio
 
 Example Screenshots:
 ---------------
+> **A successful run of the script:**
+
+![A successful run of the script](img/SuccessfulScriptConnection.png)]
+
+> **A successful tunnel connection to a Sauce machine:**
+
+![A successful tunnel connection to a Sauce machine](img/SuccessfulSauceTunnelConnection.png)
+
+> **A successful redelpoyment of the daemon at midnight:**
+
+![A successful redelpoyment of the daemon at midnight](img/NightlyRestartSuccess.png)
+
+> **The Sauce connection haults, boots, and redeploys all before 12:00:30am:**
+
+![Hault, boot](img/SauceTunnelHaultingBooting.png)
+
+![Deploy](img/SauceTunnelHaultingDeploying.png)
+
+![Redeployment a complete success before 12:00:30am](img/SauceTunnelRedeploySuccess.png)
+
