@@ -54,13 +54,15 @@ def downloadSauceConnect():
 	
 # Start the Sauce Connect tunnel
 def startSauceConnect():
+	# First kill any pre-existing Sauce Connect tunnels
+	harakiri()	
 	# Get the Sauce username from the user
-	SauceUsername = raw_input("Enter your Sauce Username: ")
+	SauceUsername = raw_input("\nEnter your Sauce Username: ")
 	# Get the Sauce API key from the user
 	SauceAPIKey = raw_input("Enter your Sauce API Key: ")
 	
-	print "Spawning Sauce Connect Daemon..."
-	print "Proving P=NP..."
+	print "\nSpawning Sauce Connect Daemon..."
+	print "Proving P = NP..."
 	# Run the Java utility via a Daemon
 	subprocess.Popen('java -jar Sauce-Connect.jar ' + SauceUsername + " " + SauceAPIKey, creationflags=8, close_fds=True)
 	print "Sauce Connect Tunnel Daemon successfully created!"
