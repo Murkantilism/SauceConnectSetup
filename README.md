@@ -17,7 +17,7 @@ This little Python script simply:
 How to run:
 ---------------
 
-Prerequisite: Python 2.7.4+ installed
+Prerequisites: Python 2.7.4+ and Java (latest) installed.
 
 To run this script, open a command prompt as Administrator, cd to the folder you downloaded the script, and execute the script:
 
