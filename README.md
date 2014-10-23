@@ -6,7 +6,7 @@ How it works:
 ---------------
 
 This little Python script simply:
- - Download the Sauce Connect Java Utility from: http://saucelabs.com/downloads/Sauce-Connect-latest.zip
+ - Downloads the Sauce Connect Java Utility from: http://saucelabs.com/downloads/Sauce-Connect-latest.zip
  - Unzips the download
  - Sets up the Sauce Connect Java Utility automatically. During setup the script:
    - Checks for the required open ports 80 & 443
